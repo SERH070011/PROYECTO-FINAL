@@ -1,0 +1,52 @@
+/*** BODY ***/
+body {
+    font-family: 'Roboto', sans-serif;
+	font-size: 1.3em;
+	line-height: 1.8em;
+	color: #161616;
+	background-color: transparent;
+	letter-spacing: 0.03em;
+}
+/*** THE END BODY ***/
+
+/*** MEDIA ***/
+@media only screen and (max-width: 768px) {
+.prjct-wrt-right {
+    font-size: 1.5em !important;
+    top: 9% !important;
+}
+
+.modal-header-menu {
+    border: 0px;
+    padding: 30px !important;
+    padding-top: 50% !important;
+}
+
+.open-menu-title {
+	font-size: 1.8em !important;
+	letter-spacing: .03em;
+	line-height: 2em !important;
+	font-weight: 600;
+	color: #fff;
+	opacity: .2 !important;
+}
+
+.right-menu {
+    float: right;
+    margin-top: 48px !important;
+    margin-right: 2% !important;
+    font-family: Roboto;
+    z-index: 1040;
+}
+
+.btn-primary-menu {
+    color: #161616;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    z-index: 1040;
+    font-family: roboto;
+    letter-spacing: .03em !important;
+}
+
